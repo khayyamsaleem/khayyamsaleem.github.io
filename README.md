@@ -1,4 +1,4 @@
-khayymsaleem.github.io
+khayyamsaleem.github.io
 ======================
 
 personal site
