@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Find a Handyman</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="display.css" />
+  </head>
+  <body onload="formOnLoad()">
+    <script src="actionHandler.js"></script>
+    <a href="index.html"><img src="Logo.png" alt="Website Logo"></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="find.html">Find a Handyman!</a></li>
+        <li><a href ="login.html">Login</a></li>
+        <li><a href ="caccount.html">Create Account</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+    </nav>
+    <main id="form">
+      <form>
+        <h3>Enter your Contact Information</h3>
+        <ul>
+          <li><label>Title</label>
+            <select id ="title" name = "title">
+              <option></option>
+              <option>Dr</option>
+              <option>Mr</option>
+              <option>Mrs</option>
+              <option>Ms</option>
+            </select>
+          </li>
+          <li><label>First Name </label>
+            <input id ="firstName" type="text" name ="firstName"></li>
+          <li><label>Last Name </label>
+            <input id="lastName" type="text" name = "lastName"></li>
+          <li><label>Email Address </label>
+            <input id="email" type="email" name ="email"></li>
+          <li><label>Street Address </label>
+            <input id ="address" type ="text" name="address"></li>
+          <li><label>PO Box/APT# </label>
+            <input id="address2" type="text" name="address2"></li>
+          <li><label>Phone Number </label>
+            <input id="homeNum" type="text" name="homeNum"></li>
+        </ul>
+        <h3>What are you looking for?</h3>
+        <ul>
+          <li>
+            <select id ="job" name="job">
+              <option></option>
+              <option id="electrician">Electrician</option>
+              <option id="plumber">Plumber</option>
+            </select><br> 
+          </li>
+          <li><label>Budget </label>
+            <input id="budget" type="number" name="budget"><br></li>
+          <li id="sDate"><label>Start Date </label>
+            <input id="startTimeMonth" class="monthday" type="number"
+              >-<input id="startTimeDay" class="monthday" type="number"
+              >-<input id="startTimeYear" class= "year" type="number">
+          </li>
+          <li id="fDate"><label>Finish Date </label>
+            <input id = "finishTimeMonth" class="monthday" type="number"
+              >-<input id ="finishTimeDay" class="monthday" type="number"
+              >-<input id ="finishTimeYear" class="year" type="number">
+          </li>
+        </ul>            
+      </form>
+        <input id="goButton" type="button" onclick="find()" value="Go!">          
+    </main>
+  </body>
+</html>
