@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -237,7 +238,7 @@ h3.title{
   padding-bottom:1px;
   padding-left:2px;
   border-radius:5px;
-  background:#c9c9c9);
+  background:#c9c9c9;
   max-width:200px;
   color:#000000;
 }
@@ -565,7 +566,7 @@ a.nav:hover {
   padding-left:1px;
   padding-bottom:0.34vw;
   border-radius: 3px;
-  background:#eeeee;
+  background:#eee;
   font-size:1.27vw;
 }
 
