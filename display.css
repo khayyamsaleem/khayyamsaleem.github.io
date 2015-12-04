@@ -1,0 +1,604 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  min-width:256px;
+  width:80%;
+  min-height:100%;
+  background-color: #f0f7fe;
+  color:#000000;
+  padding:0px;
+  max-width: 1384px;   
+  margin: auto;
+}
+
+nav{
+  border-radius:9px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top:10px;
+  width: 100%;
+  list-style-type: none;
+  background-color: #e3e3e4;
+  color: whitesmoke;
+}
+
+nav a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul.drop{
+  position:absolute;
+  margin-top:0.25vw;
+  display:none;
+}
+
+a.navAbout{
+  font-size:1vw;
+}
+
+ul.drop li{
+  background-color: #c9c9c9; 
+  border-radius:0px;
+  width:8.5vw;
+}
+
+li.nav {
+  position:static;
+  white-space:nowrap;
+  text-align: center;
+  margin-left:7.5%;
+  margin-right:0.7%;
+  display:inline-block;
+  font-size: 1.3vw;
+  margin-top:0px;
+}
+
+article{
+  box-shadow:10px 10px 10px #e1e1e1;
+}
+
+button{
+  margin: auto;
+}
+
+form select{
+  border-radius:3px;
+}
+
+form ul li, #description {
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+div form p{
+  text-indent: 0px;
+}
+
+a.navAbout{
+  margin-left:5px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  text-align:left;
+}
+
+td.stars{
+  padding-left:10px;
+  padding-right:10px;
+  border-style:groove;
+  border-color:#e3e3e4;
+ 
+}
+
+td.stars img{
+  margin-bottom:.7vw;
+  margin-top:2vw;
+  max-width:200px;
+  width:100%;
+  margin-left: 2px;
+  margin-right:2px;
+  padding:0px;
+}
+
+td.stars a{
+  margin-bottom:2vw;
+  text-align:center;
+  text-decoration: none;
+  color:#4765b6;
+  font-size:1.3vw;
+}
+
+td.stars p {
+  margin-bottom:1vw;
+  font-size:0.7vw;
+}
+
+h2.testimonial{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size:1.5vw;
+  text-align:center;
+}
+
+img.logo{
+  width:25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 40%
+}
+
+article.team{
+  margin-top: 15px;
+  padding-top:10px;
+  padding-bottom:3px;
+  height:13.4vw;
+}
+
+article.team img{
+  height:10.3vw;
+  width:10.3vw;
+  padding-left: 40px;
+}
+
+p.testimonial{
+  max-width:25%;
+  width:100%;
+  text-align:center;
+  font-size:1vw;
+  padding-top:2px;
+}
+
+p.name{
+  max-width:11vw;
+  width:100%;
+  text-align:center;
+  font-size:1vw;
+  padding-top:2px;
+  padding-left: 35px;
+}
+
+td.stars p{
+  font-size:1vw;
+  line-height: 0.3vw;
+}
+#helpButton{
+  margin-top:20px;
+  margin-left: 50%;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-family: "Impact";
+}
+article.testimonial{
+  height:15vw;
+  padding-right:20px;
+  margin-bottom: 20px;
+}
+
+article.testimonial img{
+  margin-top:5px;
+  border-radius:7px;
+  width:25%;
+  float:left;
+}
+
+article.title h3{
+  padding-bottom: 5px;
+}
+#clippy{
+  padding-top: 30px;
+  padding-left:30%
+}
+p.speech{
+  max-width:100%;
+  float:none;
+  margin-right:5%;
+  text-align:right;
+  font-size:1vw;
+}
+
+p.speech b{
+  font-size:3.2vw;
+  font-family: "Georgia serif";
+}
+
+body.popup{
+  min-width:384px;
+  max-width: 1384px;   
+}
+
+main.popup{
+  margin-top:48px;
+  max-width:400px;
+  border-radius: 10px;
+  border-style:ridge;
+  border-color:#e1e1e1;
+  text-align:center;
+}
+
+main.popup img{
+  margin-top:2px;
+  margin-left:2px;
+  max-width:50%;
+}
+
+h3.title{
+  text-align:center;
+  margin-left:0.8vw;
+  font-size:1.1vw;
+  padding-top:1px;
+  padding-bottom:1px;
+  padding-left:2px;
+  border-radius:5px;
+  background:#c9c9c9);
+  max-width:200px;
+  color:#000000;
+}
+
+h2.title{
+  text-align:center;
+  font-size: 120%;
+  text-align:center;
+  border-radius:5px;
+  max-width:100%;
+  color:#000000;
+}
+
+p.description{
+  float:right;
+  margin-right:10%;
+  max-width:800px;
+  text-indent:2vw;
+  font-size:1vw;
+  width:45vw;
+}
+
+table.sidebar{
+  position:relative;
+  right:0;
+  margin-top:20px;
+  padding-left:4vw;
+}
+
+label.testimonial{
+  position:relative;
+  max-width:100px;
+  width:100%;
+  left:0;
+  bottom:0;
+}
+
+input.back{
+  margin-left:160px;
+  padding:1px;
+}
+
+input.next{
+  margin-left:20px;
+  padding:1px;
+}
+
+option{
+  padding-top:1px;
+  padding-bottom:1px;
+}
+
+input{
+  border-radius:5px;
+  padding:1px;
+}
+
+input.accButton{
+  margin-top:5px;
+  margin-left: 95px;
+  margin-bottom:10px;
+  padding-left:1px;
+  padding-top:0.5px;
+  padding-bottom:0.5px;
+  padding-right:2px;
+}
+
+input.monthday{
+  width:35px;
+  text-align:right;
+}
+
+input.year{
+  width:60px;
+  text-align:right
+}
+
+main.short{
+  height:66.5vh;
+}
+
+footer{
+  position:relative;
+  bottom:0;
+  left:0;
+  text-align:center;
+  width:100%;
+  height:60px;
+}
+
+footer.short{
+  padding-bottom:20px;
+}
+
+#css{
+  border:0;
+  width:5.5vw;
+  height:2vw;
+}
+
+#content{
+  width:60%;
+  float:left;
+  margin-top:10px;
+}
+
+#main{
+  padding-bottom:60px;
+  height:110vmax;
+}
+
+#namename {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  font-family: "Century Gothic", charcoal, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  font-kerning: normal;
+  font-weight: bold;
+}
+#form{
+  margin:auto;
+  margin-top:10px;
+  width:400px;
+  border-radius: 10px;
+  border-style:ridge;
+  border-color:#e1e1e1;
+  padding-bottom:10px;
+}
+
+#form li {
+  margin-left:50px;
+  margin-bottom: 2px;
+}
+
+img.logoAbout{
+  padding-left: 20%;
+}
+
+#form h3{
+  margin-top:5px;
+  margin-bottom: 8px;
+}
+
+#companyDescription{
+  width:100%;
+  margin:auto;
+  margin-top:10px;
+  border-radius: 10px;
+  padding:2px;
+  padding-bottom:4px;
+}
+
+#companyDescription p{
+  text-indent: 1vw;
+  margin-left:1vw;
+  margin-right:1vw;
+  font-size:0.85vw;
+}
+
+#companyDescription img{
+  margin-left:18vw;
+  margin-top:2vw;
+  margin-bottom:2vw;
+  width:13vw;
+}
+
+#disclaimer{
+  margin-top:20px;
+  color:#a3a3a3;
+  font-size:0.6vw;
+}
+
+#disclaimer a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+#findMain{
+  min-height:500px;
+}
+
+#form p,#form h3, #form h2{
+  text-align:center;
+  margin-top:5px;
+}
+
+#description{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  font-size: 0.9vw;
+}
+
+#messageForm {
+  margin:0px;
+  margin-bottom:1px;
+}
+
+#chatBox {
+  font-family:tahoma;
+  font-size:12px;
+  color:#fff;
+  border: 1px teal solid;
+  height: 225px;
+  width: 400px;
+  background-color:#000000;
+  overflow: scroll;
+  float:none;
+  border-radius:5px;
+  border:4px solid #b1b1b1; 
+}
+#chatBox p{
+  margin-top:5px;
+  margin-left:10px;
+}
+
+#message{
+  width: 350px;
+  height: 22px;
+  border: 1px teal solid;
+  float:none;
+  margin-top:5px;
+}
+
+#send{
+  width: 50px;
+  height: 22px;
+  float:none;
+  margin:1px;
+  padding:1px;
+}
+
+#output{
+  margin-top:30px;
+  max-width:250px;
+  max-height:190px
+}
+
+#titles td{
+  text-align:center;
+}
+
+#loggedInHeader{
+  text-align: right;
+  color:#b1b1b1;
+  margin-top:5px;
+}
+
+#login{
+  margin-top:10px;
+  width:250px;
+  border-radius: 10px;
+  border-style:ridge;
+  border-color:#e1e1e1;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+#login ul{
+  margin-top:3px;
+  margin-left:30px;
+}
+
+#cAccountPW{
+  padding-right:58px;
+}
+
+#aboutTeam{
+  padding-bottom:20px;
+  padding-top:20px;
+}
+
+#description li{
+  padding-left: 20px;
+  font-size: 2vw;
+  list-style-type: circle;
+}
+
+#solution{
+  font-size: 1vw;
+  margin-bottom: 0.3vw;
+}
+
+#helpButton{
+  padding:1px;
+}
+
+table tr td img:hover{
+  border-color: #ff1600;
+  border-style:solid;
+}
+
+a.navAbout:hover{
+  color:#FFF;
+  padding-top:1px;
+  padding-right:1px;
+  padding-left:1px;
+  padding-bottom:1px;
+}
+
+#aboutLI:hover > ul.drop{
+  display:block;
+}
+
+#about:hover{
+  color:#FFF;
+  padding-top:4px;
+  padding-right:1px;
+  padding-left:1px;
+  padding-bottom:0.25vw;
+  border-radius: 3px;
+  font-size:1.27vw;
+}
+
+a.nav:hover {
+  height:100%;
+  color:#FFF;
+  padding-top:0.2vw;
+  padding-right:1px;
+  padding-left:1px;
+  padding-bottom:0.34vw;
+  border-radius: 3px;
+  background:#eeeee;
+  font-size:1.27vw;
+}
+
+@media print{
+  *{
+    float:none;    
+  }
+  
+  article.team{
+      
+  }
+  
+  body{
+    background-color: #FFF;
+    width:90%;
+    color:#000000;
+  }
+    
+  nav{
+    border:1px solid #000000;
+  }
+  
+  table{
+    width:80%;
+  }
+    
+  table tr td img{
+    margin-top:30px;
+    max-width:20%;
+    max-height:14%;
+  }
+  
+  table tr td img:hover{
+    box-shadow: none;
+    border-color: #ff1600;
+    border-style:none;
+  }
+    
+}

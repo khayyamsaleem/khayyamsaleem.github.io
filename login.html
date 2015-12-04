@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="display.css" />
+  </head>
+  <body>
+    <script src="actionHandler.js" type="text/javascript" ></script>
+    <nav>
+      <ul>
+        <li id="home" class='nav'><a class='nav' href="index.html">Home</a></li>
+        <li class='nav' id='aboutLI'><a id="about" href="company.html">About</a>
+          <ul class='drop' id='dropper'>
+            <li><a class='navAbout' href="team.html">Team Members</a></li>
+            <li><a class='navAbout' href='company.html'>Our Company</a></li>
+          </ul>
+        </li>
+        <li class='nav'><a class='nav' href="find.html">Find a Handyman!</a></li>
+        <li class='nav' ><a class='nav' href ="login.html">Login</a></li>
+        <li class='nav'><a class='nav' href ="caccount.html">Create Account</a></li>
+        <li class='nav'><a class='nav' href="help.html">Help</a></li>
+      </ul>
+    </nav>
+    <header id="loggedInHeader" onload="loginHeader()">Not Logged in</header>
+    <main class="short">
+      
+      <form id="login">
+        <ul>
+          <li>Username: <input id ="user" type ="text" name ="user" maxlength="12" 
+            onchange="userNameValidator(document.getElementById('user'),document.getElementById('valImage'))" required>
+            <img id = "valImage" src = "Pictures/invalid.png" alt="" width="15" height = "15"><br></li>
+          <li>Password: <input id="pass" type="password" name ="pass" 
+            maxlength="18" required></li>
+        </ul>
+        <a href="index.html"><img class="logo" src="Logo.png" alt="Website Logo"></a>
+         <input id="loginButton" class="accButton" type="button" name="accButton"
+        value="Log in" onclick = "login()">
+      </form>
+      <p><br/></p>
+      <p><br/></p>
+      <p><br/></p>
+      <p><br/></p>
+      <p><br/></p>
+      <p><br/></p>
+     
+    </main>
+    <footer class="short">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img id="css" src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+        </a>
+      <p>© Squad Bless America 2015</p>
+    </footer>
+  </body>
+</html>
