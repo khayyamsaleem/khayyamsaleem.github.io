@@ -208,7 +208,7 @@ function find(){
         englishFix = "A"; 
     if(ticker===1){    
         if(valid){
-            var text = "<h2>Is the follow information correct?</h2>"+
+            var text = "<h2>Is the following information correct?</h2>"+
                 "<p> "+firstName+" " +lastName+"</p><p>"+email+"</p>"+address2+"<p>"+
                 addressp1+"</p><p>"+homePhone+"</p><br><h3>Seeking</h3>"+
                 "<p>"+englishFix+" " + jobType+" working on a budget of $"+budget+"</p>"+
@@ -407,7 +407,7 @@ function dateBlock(){
     }    
 }
 function finder(){
-    var text = "<h3>Thank you for using HandyManLocator.com!</h3>";
+    var text = "<h3>Thank you for using Handyman Locator!</h3>";
     htmlChanger(document.getElementById("form"),text);
     window.open("./popup.html","Your HandyMan","width = 500, height = 350");
 }
@@ -418,43 +418,43 @@ function popup(){
     switch(randomNumber){
         case 1:
             image.src ='Pictures/electrician1.jpg';
-            htmlChanger(data,"You have been matched with Peggy");
+            htmlChanger(data,"You have been matched with Peggy!");
             break;
         case 2:
             image.src ='Pictures/electrician.jpg';
-            htmlChanger(data,"You have been matched with Dave");
+            htmlChanger(data,"You have been matched with Dave!");
             break;
         case 3:
             image.src ='Pictures/electrician2.jpg';
-            htmlChanger(data,"You have been matched with Brian");
+            htmlChanger(data,"You have been matched with Brian!");
             break;
         case 4:
             image.src ='Pictures/electrician3.jpg';
-            htmlChanger(data,"You have been matched with Gus");
+            htmlChanger(data,"You have been matched with Gus!");
             break;
         case 5:
             image.src ='Pictures/electrician4.jpg';
-            htmlChanger(data,"You have been matched with Bill");
+            htmlChanger(data,"You have been matched with Bill!");
             break;
         case 6:
             image.src ='Pictures/plumber1.jpg';
-            htmlChanger(data,"You have been matched with Jimithy");                
+            htmlChanger(data,"You have been matched with Jimithy!");                
             break;
         case 7:
             image.src ='Pictures/plumber2.jpg';
-            htmlChanger(data,"You have been matched with Fred");
+            htmlChanger(data,"You have been matched with Fred!");
             break;
         case 8:
             image.src ='Pictures/plumber5.jpeg';
-            htmlChanger(data,"You have been matched with Carl");
+            htmlChanger(data,"You have been matched with Carl!");
             break;
         case 9:
             image.src ='Pictures/plumber4.jpg';
-            htmlChanger(data,"You have been matched with Dr. Tickles");
+            htmlChanger(data,"You have been matched with Dr. Tickles!");
             break;
         default:
             image.src ='Pictures/plumber5.jpg';
-            htmlChanger(data,"You have been matched with The Great Papyrus");
+            htmlChanger(data,"You have been matched with The Great Papyrus!");
     }
 }
 function formOnLoad(){

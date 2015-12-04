@@ -517,7 +517,10 @@ img.logoAbout{
   font-size: 2vw;
   list-style-type: circle;
 }
-
+#handyman{
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
 #solution{
   font-size: 1vw;
   margin-bottom: 0.3vw;
