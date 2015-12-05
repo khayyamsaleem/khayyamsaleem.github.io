@@ -8,7 +8,7 @@ body{
   min-width:256px;
   width:80%;
   min-height:100%;
-  background-color: #f0f7fe;
+  background-color: #a5f9;
   color:#000000;
   padding:0px;
   max-width: 1384px;   
@@ -535,7 +535,9 @@ table tr td img:hover{
   border-color: #ff1600;
   border-style:solid;
 }
-
+p.description{
+  padding-top: 5%;
+}
 a.navAbout:hover{
   color:#FFF;
   padding-top:1px;
